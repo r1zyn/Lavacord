@@ -199,7 +199,7 @@ export class Manager extends EventEmitter {
     }
 
     /**
-     * Gets all connected nodes, sorts them by cou load of the node
+     * Gets all connected nodes, sorts them by cpu load of the node
      */
     public get idealNodes(): LavalinkNode[] {
         return [...this.nodes.values()]
